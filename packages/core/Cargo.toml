@@ -39,3 +39,6 @@ tonic-build = "0.12"
 [profile.release]
 lto = true
 
+[dev-dependencies]
+mockall = "0.13.1"
+
