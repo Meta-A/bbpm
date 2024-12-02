@@ -1,6 +1,6 @@
 use core::config::manager::ConfigManager;
-use core::packages::package::PackageStatus;
 use core::packages::package_builder::PackageBuilder;
+use core::packages::package_status::PackageStatus;
 use core::packages::utils::signatures::sign_package;
 use core::services::blockchains::BlockchainsService;
 use core::services::packages::PackagesService;
