@@ -1,5 +1,5 @@
 use core::blockchains::errors::blockchain_error::BlockchainError;
-use core::packages::package::PackageStatus;
+use core::packages::package_status::PackageStatus;
 use core::services::blockchains::BlockchainsService;
 use core::{config::manager::ConfigManager, services::package_managers::PackageManagersService};
 use std::sync::Arc;
